@@ -1,0 +1,247 @@
+.first img{
+
+	    width: 50%;
+	    margin-top: 0%;
+	    height: 400px;
+	    margin-left: -1%;
+
+}
+
+.first {
+
+	    background-color:#E6E6FA;
+	    margin-top: 4%;
+	    margin-left: -1%;
+}
+
+.second h1{
+
+	      margin-left: 52%;
+	      margin-top: -28%;
+	      width: 25%;
+	      font-weight: bold;
+	      font-size: 48px;
+}
+
+.second p{
+
+	     margin-left: 52%;
+	      margin-top: 0%;
+	      width: 40%;
+	      line-height: 20px;
+	      font-size: 20px;
+	      letter-spacing: 1px;
+}
+
+.second button{
+
+	           position: absolute;
+top: 40%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: 	#CBC3E3;
+
+  color: black;
+  font-size: 20px;
+  padding: 19px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}    
+
+
+.third h1{
+
+	       margin-left: 40%;
+           margin-top: 7%;
+}
+
+.third p{
+
+	        margin-left: 5%;
+	        width: 90%;
+	      margin-top: 0%;
+	      line-height: 25px;
+	      font-size: 20px;
+	      letter-spacing: 1px;   
+}
+
+.fourt h1{
+
+	       font-size: 42px;
+	       margin-left: 5%;
+}
+
+.fourt li{
+
+	       margin-left: 3%;
+
+	    
+	      line-height: 25px;
+	      font-size: 20px;
+	      letter-spacing: 1px; 
+}
+
+.five h1{
+
+	       font-size: 42px;
+	       margin-left: 40%;
+	       margin-top: -16%;
+}
+
+.five li{
+
+	       margin-left: 40%;
+         line-height: 25px;
+	      font-size: 20px;
+	      letter-spacing: 1px; 
+}
+
+.five img{
+
+	       width: 30%;
+	       margin-left: 67%;
+	       margin-top: -31%;
+}
+
+.six h1{
+
+
+	font-size: 42px;
+	       margin-left: 5%;
+
+
+}
+
+.six li{
+
+	       margin-left: 3%;
+
+	    
+	      line-height: 28px;
+	      font-size: 20px;
+	      letter-spacing: 1px; 
+}
+
+.seven h1{
+
+
+	font-size: 42px;
+	       margin-left: 5%;
+
+
+}
+
+.seven li{
+
+	       margin-left: 3%;
+
+	    
+	      line-height: 28px;
+	      font-size: 20px;
+	      letter-spacing: 1px; 
+}
+
+.eight h1{
+
+	      font-size: 42px;
+	       margin-left: 31%;
+}
+
+.eight img{
+
+	       height: 300px;
+}
+
+.eight ul{
+
+	   width: 50%;
+	   margin-left: 35%;
+	   margin-top: -22%;
+	   letter-spacing: 1px;
+	   line-height: 35px; 
+}
+
+
+faq-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .question {
+            font-weight: bold;
+            margin: 15px;
+            cursor: pointer;
+            color: black;
+            padding: 15px;
+            transition: background-color 0.3s;
+            border-bottom: 1px solid #e0e0e0;
+            background: linear-gradient(to right, #f4f4f4, #fff);
+            font-size: 20px;
+        }
+
+        .question:hover {
+            background-color: #f2f2f2;
+        }
+
+        .answer {
+            display: none;
+            margin: 0 15px 15px;
+            padding: 15px;
+            color: black;
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+            letter-spacing:1px;
+            line-height: 30px;
+            font-size: 18px;
+
+        }
+
+
+  .nine h1{
+
+  	         margin-left: 35%;
+  }
+
+
+/*  for responsive website*/
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+
+    .first img {
+        width: 100%;
+        height: auto;
+    }
+
+    .second h1,
+    .second p,
+    .third h1,
+    .third p,
+    .fourt h1,
+    .fourt li,
+    .five h1,
+    .five li,
+    .five img,
+    .six h1,
+    .six li,
+    .seven h1,
+    .seven li,
+    .eight h1,
+    .eight img,
+    .eight ul,
+    .nine h1 {
+        margin-left: 5%;
+    }
+
+    /* Add more responsive styles for other sections */
+}
