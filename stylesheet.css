@@ -219,7 +219,7 @@ faq-container {
     /* Adjust styles for smaller screens */
 
     .first img {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 
